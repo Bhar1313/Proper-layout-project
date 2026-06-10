@@ -5,6 +5,8 @@
 }
 .Application{
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .Header {
@@ -31,7 +33,7 @@
 }
 .Layout{
   display: flex;
-  min-height: 400px;
+  flex: 1;
 }
 .Left{
   display: flex;
@@ -43,7 +45,7 @@
 }
 .Content {
   width: 60%;
-  padding: 50px;
+  padding: 70px;
   background-color: bisque;
 }
 .Right{

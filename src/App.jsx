@@ -16,11 +16,11 @@ function App() {
       <Header/>
           <Nav/>
       <div className="Layout">
-      <Leftsidebar/>
-          <Rightsidebar/>
+          <Leftsidebar/>
           <Maincontent/>
-          <Footer/>
+          <Rightsidebar/>
     </div>
+    <Footer/>
     </div>
           </>
   )
